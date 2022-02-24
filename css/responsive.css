@@ -1,0 +1,143 @@
+
+@media (max-width:1024px){
+   .home,
+   .sevices,
+   .contect{
+      height: auto;
+   }
+
+}
+
+
+@media (max-width:991px) {
+   html{
+      font-size: 55%;
+   }
+   .header{
+     padding: 0 2rem;
+   }
+   #menu-icon{
+      display: block;
+   }
+   .header .MyNavbar{
+      position: absolute;
+      top: 99%;
+      left: 0;
+      right: 0;
+      width: 100%;
+      /* min-height: 80vh; */
+      background-color: #fff;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-bottom: 10rem;
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+      transition: all 0.3s linear;
+      z-index: 9999;
+   }
+   .header .MyNavbar a{
+      margin: 1rem auto;
+      padding: 0.8rem;
+      background: bisque;
+      width: 80%;
+      text-align: center;
+      border-radius: 2rem;
+   }
+   .btn-grp{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: auto;
+   }
+   .btn-grp a{
+      max-width: 15rem;
+      margin: 2rem !important;
+   }
+   .booking .img-div figure{
+      width: 100%;
+      margin: auto;
+   }
+   /* swiper  */
+   .testimonials .testi-box{
+      width: 80%;
+      margin-right: auto;
+      margin-left: 5rem;
+   }
+   #arrow{
+      right:5%;
+  }
+  #design3,
+  #design5{
+     display: none;
+  }
+ 
+
+}
+
+@media (max-width:720px){
+   h2,h5,h3{
+      text-align: center !important;
+   }
+   .home .hero-img-div img{
+      margin: auto;
+   }
+   .sevices .card{
+      width: 60%;
+   }
+   .contect .contect-bg{
+      padding: 6rem 3rem;
+   }
+   .form-div{
+      width: 90vw;
+   }
+
+}
+
+
+@media (max-width:540px){
+   html{
+      font-size: 50%;
+   }
+   .btn-grp{
+      flex-flow: column;
+   }
+   .main-heading, 
+   .paragraph{
+      max-width: 100%;
+      padding: 0 1rem;
+   }
+   .testimonials .testi-box{
+      margin-left: 2rem;
+   }
+   .testimonials #testi-face {
+      width: 7rem;
+   }
+
+}
+
+@media (max-width:415px){
+   html{
+      font-size: 40%;
+    }
+   .swiper {
+      height: 40vh;
+  }
+  #design4,
+  #design4-copy{
+   width: 10rem;
+}
+
+}
+
+
+@media (max-width:280px){
+   
+   .header .logo{
+      max-width: 11rem;
+   }
+   .testimonials #testi-face {
+      width: 7rem;
+   }
+
+
+}
